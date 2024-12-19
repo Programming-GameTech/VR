@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-p12_lotus-hill-gate",
-      "name": "p12_lotus-hill-gate",
+      "id": "0-",
+      "name": "首頁",
       "levels": [
         {
           "tileSize": 256,
@@ -24,15 +24,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.2305220984834824,
+        "pitch": -0.3062814860394525,
+        "fov": 1.2599180821480807
       },
       "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.2299801929367433,
+          "pitch": -0.31090246685308287,
+          "title": "不是這邊喔",
+          "text": "這裡只是隨便放一張，真正要講的不是這邊喔!"
+        }
+      ]
     }
   ],
-  "name": "Project Title",
+  "name": "Home Page",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
